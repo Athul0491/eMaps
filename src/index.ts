@@ -1,8 +1,6 @@
-import { User } from "./User";
-import { Company } from "./Company";
+// import { User } from "./User";
+// import { Company } from "./Company";
 
-const user = new User();
-console.log(user);
+import { CustomMap } from "./CustomMap";
 
-const company = new Company();
-console.log(company);
+new CustomMap("map");
